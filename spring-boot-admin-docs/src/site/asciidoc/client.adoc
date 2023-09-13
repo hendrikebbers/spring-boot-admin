@@ -183,7 +183,7 @@ spring.boot.admin.client.password
 | Select which information should be considered when sending the host of a service: +
     * `IP`: Uses the IP returned by `InetAddress.getHostAddress()` +
     * `HOST_NAME`: Uses the host name of a single machine returned by `InetAddress.getHostName()` +
-    * `CANONICAL_HOST_NAME`: Uses the FQDN returned by `InetAddress.geCanonicalHostName()` +
+    * `CANONICAL_HOST_NAME`: Uses the FQDN returned by `InetAddress.getCanonicalHostName()` +
     If `server.address` or `management.address` is set in the service, the value will overrule this property.
 | `CANONICAL_HOST_NAME`
 
